@@ -1,0 +1,27 @@
+.navbar {
+    min-height: 65px;
+    background: #fff !important;
+    -webkit-box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+    -moz-box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+    box-shadow: 0 2px 2px rgba(50, 50, 50, 0.15);
+    border:none !important;
+}
+.navbar-nav>li>a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 18px
+}
+.navbar-inverse .navbar-nav>li>a{
+	color:green !important;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a.active,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+/********************************************************************/
